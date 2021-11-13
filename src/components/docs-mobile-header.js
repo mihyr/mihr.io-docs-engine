@@ -5,13 +5,13 @@ import DocsNavLogoLockup from "./docs-nav-logo-lockup"
 
 const DocsMobileHeader = () => (
   <div className="DocsMobileHeader">
-    <a className="DocsMobileHeader--cloudflare-logo-link Link Link-without-underline" href="https://developers.cloudflare.com/">
+    <a className="DocsMobileHeader--cloudflare-logo-link Link Link-without-underline" href="https://pegasus.mihr.io/">
       <DocsNavLogoLockup
         small={true}
-        logo={<CloudflareLogo/>}
+        logo={<Img src='https://raw.githubusercontent.com/PegasusDrone/pegasus-docs-engine/master/src/components/icon.png'/>}
         text={(
           <>
-            <span data-text="Cloudflare">Cloudflare</span>
+            <span data-text="Pegasus">Pegasus</span>
             <span>&nbsp;</span>
             <span data-text="Docs">Docs</span>
           </>
