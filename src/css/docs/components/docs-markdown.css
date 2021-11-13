@@ -118,7 +118,7 @@
   --background-color-alpha: .03;
   --border-bottom-color-rgb: var(--orange-rgb);
   --border-bottom-color-alpha: .35;
-  color: var(--code-orange);
+  color: var(--code-cyan);
 }
 
 [theme="dark"] .DocsMarkdown--link:hover {
