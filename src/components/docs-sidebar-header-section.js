@@ -7,7 +7,7 @@ const DocsSidebarHeaderSection = () => (
   <div className="DocsSidebar--section DocsSidebar--header-section">
     <a className="DocsSidebar--cloudflare-logo-link DocsSidebar--link" href="https://pegasus.mihr.io">
       <DocsNavLogoLockup
-        logo={<Img src='https://raw.githubusercontent.com/PegasusDrone/pegasus-docs-engine/master/src/components/icon.png'/>}
+        logo={<CloudflareLogo/>}
         text={(
           <>
             <span data-text="Pegasus">Pegasus</span>

@@ -8,7 +8,7 @@ const DocsMobileHeader = () => (
     <a className="DocsMobileHeader--cloudflare-logo-link Link Link-without-underline" href="https://pegasus.mihr.io/">
       <DocsNavLogoLockup
         small={true}
-        logo={<Img src='https://raw.githubusercontent.com/PegasusDrone/pegasus-docs-engine/master/src/components/icon.png'/>}
+        logo={<CloudflareLogo/>}
         text={(
           <>
             <span data-text="Pegasus">Pegasus</span>
