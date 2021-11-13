@@ -147,10 +147,10 @@ module.exports = {
         name: "Cloudflare docs",
         short_name: "Docs",
         start_url: "/",
-        background_color: "#f38020",
-        theme_color: "#f38020",
+        background_color: "#0d6efd",
+        theme_color: "#0d6efd",
         display: "minimal-ui",
-        icon: "src/images/cloudflare-icon.png"
+        icon: "src/images/icon.png"
       }
     },
     // Consider enabling for PWA + offline functionality
