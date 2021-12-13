@@ -12,7 +12,7 @@ export default ({ page }) => {
   const { contentRepo, contentRepoFolder } = getCloudflareDocsConfig()
   const filePathPrefix = contentRepoFolder ? `${contentRepoFolder}/` : ""
   const pathToFile = `${filePathPrefix}src/content/${relativePath}`
-  const editOnGithubURL = `https://github.com/${contentRepo}/docs/tree/main/${pathToFile}`
+  const editOnGithubURL = `https://github.com/mihr.io/tree/master/projects/${contentRepo}/${pathToFile}`
 
   return (
     <footer className="DocsFooter">
