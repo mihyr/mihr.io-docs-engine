@@ -5,7 +5,7 @@ import DocsNavLogoLockup from "./docs-nav-logo-lockup"
 
 const DocsSidebarHeaderSection = () => (
   <div className="DocsSidebar--section DocsSidebar--header-section">
-    <a className="DocsSidebar--cloudflare-logo-link DocsSidebar--link" href="https://mihr.io">
+    <a className="DocsSidebar--cloudflare-logo-link DocsSidebar--link" href="https://mihr.io/#projects">
       <DocsNavLogoLockup
         logo={<CloudflareLogo/>}
         text={(
